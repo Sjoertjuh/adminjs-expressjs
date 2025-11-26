@@ -120,7 +120,7 @@ export const buildAssets = ({
 
   assets.forEach((asset) => {
     router.get(asset.path, async (_req, res) => {
-      res.sendFile(path.resolve(asset.src));
+      res.sendFile(path.resolve(asset.src), { dotfiles: "allow" });
     });
   });
 };
