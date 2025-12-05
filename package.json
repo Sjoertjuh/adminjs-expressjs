@@ -75,7 +75,7 @@
     "mongoose": "^6.10.0",
     "nodemon": "^2.0.6",
     "prettier": "^2.8.4",
-    "semantic-release": "^17.2.4",
+    "semantic-release": "^19.0.3",
     "semantic-release-slack-bot": "^1.6.2",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
